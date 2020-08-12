@@ -8,9 +8,14 @@
     <link href="index.css" rel="stylesheet">
 </head>
 
+<body>
+    <h1>Pokémon Trading Card Game Gallery</h1>
 
-<body onload="getCards();">
-    <h1>Pokemon Trading Card Game Gallery</h1>
+    <input id="search" name="search" placeholder="Search for Card">
+    <button id="button" onclick="removeCards(), getCards();">Search
+    </button>
+
+    <hr>
 
     <div id="cards">
 
